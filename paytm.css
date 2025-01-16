@@ -1,0 +1,379 @@
+/*universal code*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia;
+}
+/*NAVBAR CODE*/
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px rgba(0, 41, 112, .3);
+    position: sticky;
+}
+/*navbar logo code*/
+
+/*navbar link's*/
+.nav-links ul{
+    display: flex;
+}
+.nav-links ul li{
+    list-style: none;
+   margin-left: 30px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/*navbar link's with hover effect*/
+.nav-links ul li a:hover{
+    text-decoration: underline;
+}
+/* sign-in button*/
+.sign-in{
+    margin-left: 80px;
+}
+/* BODY*/
+/*header*/
+.header{
+    margin: 0; /* Remove body margin */
+    height: 500px; /* Full viewport height */
+    background-image: url('header\ background\ image.png'); /* Path to the image */
+    background-size: cover; /* Makes the image cover the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+   padding-top: 40px; ;
+    padding-left: 250px;
+}
+     
+/*child box of header*/
+.H-content{
+    width: 1000px;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.one-content{
+    font-size: 20px;
+    display: flex;
+    margin-left: 50px;
+    padding: 50px;
+}
+.one-content{
+    margin-left: 80px;
+}
+.one-content p{
+    padding-left: 20px;
+}
+
+/* content second line*/
+.two-content{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.c-box1 span{ 
+     color: rgb(111, 109, 109);
+}
+.c-box1 input{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 30px; 
+    border-radius: 10px;
+}
+.c-box2{
+    font-size: 50px;
+}
+.c-box4 p{
+    color: rgb(94, 93, 93);
+}
+.c-box4 input{
+    width: 140px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.H-content button{
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(48, 182, 239);
+    color: white;
+    border-radius: 10px;
+}
+.H-content button:hover{
+    background-color: rgb(6, 123, 156);
+}
+.card-img img{
+    width: 450px;
+    height: 250px;
+    display: inline-flex;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
+/* Content 3*/
+.content-3{
+    background-color:  #00BCEB;
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+}
+.content-3 h3{
+    color: white;
+    font-size: 50px;
+    padding:10px;
+}
+.content3-img img{
+    justify-content: center;
+    padding-left: 60px;
+}
+/*content 4*/
+.content-4 img{
+    width: 100%;
+}
+/*content 5*/
+.content-5 img{
+    width: 100%;
+    padding-top: 100px;
+}
+/*footer*/
+footer img{
+    width: 100%;
+}
+/* Universal code */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+
+/* Navbar code */
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px rgba(0, 41, 112, .3);
+    position: sticky;
+}
+
+/* Navbar links */
+.nav-links ul {
+    display: flex;
+}
+.nav-links ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav-links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sign-in button */
+.sign-in {
+    margin-left: 80px;
+}
+
+/* Body */
+.header {
+    height: 500px;
+    background-image: url('header\ background\ image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-left: 250px;
+}
+
+/* Child box of header */
+.H-content {
+    width: 1000px;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.one-content {
+    font-size: 20px;
+    display: flex;
+    margin-left: 80px;
+    padding: 50px;
+}
+.one-content p {
+    padding-left: 20px;
+}
+
+/* Content second line */
+.two-content {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.c-box1 span {
+    color: rgb(111, 109, 109);
+}
+.c-box1 input {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.c-box4 p {
+    color: rgb(94, 93, 93);
+}
+.c-box4 input {
+    width: 140px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.H-content button {
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(48, 182, 239);
+    color: white;
+    border-radius: 10px;
+}
+.H-content button:hover {
+    background-color: rgb(6, 123, 156);
+}
+
+.card-img img {
+    width: 450px;
+    height: 250px;
+    display: inline-flex;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Content 3 */
+.content-3 {
+    background-color: #00BCEB;
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+}
+.content-3 h3 {
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.content3-img img {
+    justify-content: center;
+    padding-left: 60px;
+}
+
+/* Content 4 */
+.content-4 img {
+    width: 100%;
+}
+
+/* Content 5 */
+.content-5 img {
+    width: 100%;
+    padding-top: 100px;
+}
+
+/* Footer */
+footer img {
+    width: 100%;
+}
+
+/* Responsive adjustments for max width 700px */
+@media (max-width: 700px) {
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .sign-in {
+        margin-left: 0;
+    }
+    .one-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .two-content {
+        flex-direction: column;
+    }
+
+    .two-content .c-box1, 
+    .two-content .c-box4 {
+        flex: 1 1 100%;
+    }
+
+    .two-content .c-box2 {
+        flex: 1 1 100%;
+    }
+
+    .two-content button {
+        flex: 1 1 100%;
+    }
+    .card-img img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .content-3 {
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .content-3 h3 {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
